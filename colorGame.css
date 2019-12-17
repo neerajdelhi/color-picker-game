@@ -1,0 +1,52 @@
+body{
+    background-color:#232323;
+    margin:0 auto;
+}
+#container{
+    margin:0 auto;
+    max-width:600px;
+}
+.square{
+    margin:1.66%;
+    width:30%;
+    padding-bottom:30%;
+    background-color:red;
+    float:left;
+    border-radius:15px;
+    box-sizing: border-box;
+}
+h1{
+    color:white;
+    height:100%;
+    text-align:center;
+    margin:0px;
+    font-family: 'montserrate','vernice';
+    font-weight: normal;
+    padding:10px 0;
+    background-color:steelblue;
+}
+
+#strip{
+    background-color:#fff;
+    /* height:22px; */
+    text-align:center;
+}
+.selected{
+    background-color:steelblue;
+    color:#fff;
+}
+button{
+    border:none;
+    font-weight:normal;  
+    background-color:transparent; 
+}
+button:hover{
+    background-color:steelblue;
+    cursor: pointer;
+    transition: all 0.3s;
+    color:#fff;
+}
+#message{
+    width:20%;
+    display:inline-block;
+}
